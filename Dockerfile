@@ -14,7 +14,7 @@ COPY . /app
 WORKDIR /app
 
 # Install dependencies
-RUN yarn add --save-dev electron
+RUN yarn add electron
 RUN yarn install
 
 # Launch application
