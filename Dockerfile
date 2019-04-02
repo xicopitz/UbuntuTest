@@ -8,7 +8,7 @@ RUN npm install --save-dev electron
 #ENV FRESHINSTALL=true
 
 # Copy source code
-COPY ./src
+COPY ./src /app
 
 # Change working directory
 WORKDIR /app
